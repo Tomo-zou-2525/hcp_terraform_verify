@@ -11,7 +11,7 @@ terraform {
 resource "aws_vpc" "hcp_terraform_vpc_100725229921" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    Name = "terraform_vpc_100725229921"
+    Name = "terraform_vpc_100725229921_modify"
   }
 }
 
